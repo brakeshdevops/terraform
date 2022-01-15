@@ -1,4 +1,3 @@
-output "new"
-{
+output "new" {
     value = "Hello world"
 }
