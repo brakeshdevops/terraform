@@ -1,4 +1,4 @@
 output "new"
 {
-    value="Hello world"
+    value = "Hello world"
 }
