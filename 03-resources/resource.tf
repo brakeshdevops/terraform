@@ -7,11 +7,7 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  profile = "default"
-  region = "us-east-1"
-}
+
 resource "aws_instance" "sample" {
   ami = "ami-04a65ae1c3772365a"
   instance_type = "t2.micro"
