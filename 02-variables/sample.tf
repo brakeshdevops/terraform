@@ -33,3 +33,7 @@ variable "input2" {}
 output "demo5" {
   value = var.input2
 }
+variable input_shell {}
+output "demo6" {
+  value = var.input_shell
+}
