@@ -25,3 +25,11 @@ output "demo2" {
 output "demo3" {
   value = var.demo3["age"]
 }
+ variable "input1" {}
+variable "input2" {}
+ output "demo4" {
+   value = var.input1
+ }
+output "demo5" {
+  value = var.input2
+}
